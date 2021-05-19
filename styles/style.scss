@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.contenu{
+    padding: 80px 0 0;
+}
+
+#boutonHautPage{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(0, 0, 0, .4);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    img{
+        margin-top: -3px;
+        width: 27px;
+        height: 27px;
+    }
+}
+
+@import './components/_header';
+@import './components/_hautDePage';
+@import './components/_veilleTechno';
+@import './components/_stages';
+@import './components/_projets';
+@import './components/_index';

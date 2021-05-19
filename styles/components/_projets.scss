@@ -1,0 +1,547 @@
+#projets_intro{
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 1px;
+
+    #flex_intro{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1300px;
+        margin: 100px auto 140px;
+        
+        div{
+            width: 550px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #div_asimov{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            p{
+                margin: 0;
+                text-align: center;
+                font-size: 32px;
+                line-height: 35px;
+            }
+    
+            #img_asimov{
+                width: 200px;
+            }
+        }
+
+        #img_epoka{
+            width: 490px;
+        }
+    }
+}
+
+#contenu_asimov{
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 40px;
+    margin: 0 0 100px;
+
+    #presentation_asimov{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 70px 0 0;
+
+        h2{
+            font-size: 30px;
+            margin: 10px 0 0;
+        }
+    
+        ul{
+            padding: 0 0 0 60px;
+            margin: 10px 0 50px;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    
+        img{
+            width: 1000px;
+        }
+    }
+    
+    #besoins_asimov{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+
+        h2{
+            font-size: 30px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 22px;
+            text-align: center;
+            margin: 15px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+
+        #node_img{
+            width: 450px;
+            margin: 30px 0 0;
+        }
+    }
+
+    #presentation_projet_asimov{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+            margin: 30px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+
+        h2{
+            font-size: 30px; 
+        }
+
+        #outils{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 90px 0 0;
+
+            hr{
+                height: 1px;
+                width: 100%;
+            }
+
+            h2{
+                margin: 60px 0 0;
+            }
+    
+            #img_trello{
+                width: 450px;
+            } 
+
+            .down_arrow{
+                width: 300px;
+            }
+
+            #tableau_trello{
+                margin: 50px 0 0;
+                border: 1px solid black;
+                border-radius: 5px;
+            }
+    
+            #img_git{
+                width: 1100px;
+                margin: 50px 0 0;
+            }
+
+            #git_asimov_img{
+                width: 1100px;
+                margin: 60px 0 0;
+            }
+
+            #img_vscode{
+                width: 770px;
+                margin: 50px 0 0;
+            }
+
+            #flex_arrows{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 700px;
+                margin: -20px 0 0;
+
+                #n°1{
+                    transform: rotate(25deg);
+                }
+
+                #n°2{
+                    transform: rotate(-25deg);
+                }
+            }
+
+            #flex_img_vscode_asimov{
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                width: 1850px;
+                margin: 50px 0 0;
+
+                #code_asimov_img{
+                    width: 800px;
+                }
+
+                #uml_asimov_img{
+                    width: 850px;
+                }
+            }
+        }
+
+        #normes{
+            width: 100%;
+            margin: 80px 0 0;
+
+            h2{
+                text-align: center;
+            }
+
+            #flex_normes{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 1100px;
+                margin: 0 auto;
+
+                h3{
+                    font-size: 26px;
+                    margin: 10px 0 0;
+                }
+
+                div{
+                    width: 500px;
+                    text-align: center;
+
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        #competences{
+            margin: 80px 0 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                margin: 30px 0 20px;
+            }
+
+            #flex_competences{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 900px;
+
+                div{
+                    width: 425px;
+                }
+
+                p{
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
+
+        #rapports{
+            margin: 100px auto 0;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+#contenu_epoka{
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 1px;
+    
+    #presentation_epoka{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+    
+        ul{
+            padding: 0 0 0 60px;
+            margin: 10px 0 50px;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    
+        img{
+            width: 1000px;
+        }
+    }
+    
+    #besoins_epoka{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+
+        h2{
+            font-size: 30px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 22px;
+            text-align: center;
+            margin: 15px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    #developpement{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1100px;
+        margin: 30px 0;
+
+        #php_img{
+            width: 480px;
+        }
+
+        #java_img{
+            width: 440px;
+        }
+    }
+
+    #presentation_projet_epoka{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 40px 0 0;
+        
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+            margin: 30px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+
+        h2{
+            font-size: 30px; 
+        }
+
+        #outils{
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 1350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px 0 0;
+
+            h2{
+                margin: 5px 0 40px;
+            }
+        }
+
+        #git{
+            margin: 70px 0 0;
+            width: 100%;
+            text-align: center;
+
+            #logo{
+                width: 1100px;
+            }
+
+            .main-carousel{
+                width: 1250px;
+                margin: 0 auto 70px;
+            } 
+     
+             .carousel-cell_1 {
+                 width: 100%;
+                 height: 580px;
+                 margin-right: 10px;
+             
+                 img{
+                     width: 100%;
+                     height: 100%;
+                 }
+             }
+     
+             .carousel-cell_2 {
+                 width: 100%;
+                 height: 580px;
+                 margin-right: 10px;
+             
+                 img{
+                     width: 100%;
+                     height: 100%;
+                 }
+             }
+
+             .flickity-button {
+                background: #333;
+              }
+              .flickity-button:hover {
+                background: #F90;
+              }
+              
+              .flickity-prev-next-button {
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+              }
+              /* icon color */
+              .flickity-button-icon {
+                fill: white;
+              }
+              /* position outside */
+              .flickity-prev-next-button.previous {
+                left: -40px;
+              }
+              .flickity-prev-next-button.next {
+                right: -40px;
+              }
+        }
+
+        #android{
+                img{
+                    width: 450px;
+                    margin: 50px 0 0;
+                } 
+
+                #titre_logo{
+                    text-align: center;
+                    font-size: 50px;
+                    line-height: 40px;
+                    margin: 5px 0 10px;
+                }
+
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    text-align: center;
+                    margin: 30px 0 0;
+                }
+        }
+
+        #phpmyadmin{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 80px 0;
+
+                #img_phpmyadmin{
+                    width: 700px;
+                    margin: 0 0 30px;
+                }
+
+                #img_base{
+                    margin: 60px 0 0;
+                }
+        }
+
+        #competences{
+            margin: 60px 0 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                margin: 30px 0 20px;
+            }
+
+            #flex_competences{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 900px;
+
+                div{
+                    width: 425px;
+                }
+
+                p{
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
+
+        #rapports{
+            margin: 100px auto 0;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+}

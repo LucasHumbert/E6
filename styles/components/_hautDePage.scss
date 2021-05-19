@@ -1,0 +1,26 @@
+.blue_wall{
+    height: 320px;
+    background-image: url("../imports/images/blue-wall.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 6px 4px rgba(0, 0, 0, 0.2);
+
+    div{
+       font-size: 24px;
+       color: #fff;
+       background-color: rgba(0, 0, 0, 0.4);
+       padding: 22px 50px;
+       border: 1px solid #fff;
+       border-radius: 3px;
+
+       p{
+           margin: 0;
+           font-size: 36px;
+       }
+    }
+}

@@ -1,0 +1,531 @@
+#stage_intro_racg{
+    box-shadow: 0px -6px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding-top: 80px;
+
+    div{
+        width: 960px;
+        font-size: 22px;
+        text-align: center;
+        margin: 0 auto;
+
+        a{
+            color: #000;
+            text-decoration: none;
+            outline: none;
+
+            &:hover{
+                h1{
+                    color: rgba(97, 192, 255, 1);
+                }
+            }
+        }
+
+        h1{
+            font-size: 35px;
+            margin: 80px 0 10px;
+            text-decoration: underline;
+        }
+
+        img{
+            width: 800px;
+        }
+
+        p{
+            margin: 0;
+        }
+
+        .stage_explications{
+            margin: 0;
+            font-size: 20px;
+            color: rgb(116, 116, 116);
+            font-style: italic;
+        }
+    }
+}
+
+#contenu_racg{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 80px;
+
+    #presentation_racg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+    
+        ul{
+            padding: 0 0 0 90px;
+            margin: 10px 0 50px;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    
+        img{
+            width: 1000px;
+        }
+    }
+    
+    #besoins_racg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 70px 0 0;
+
+        h2{
+            font-size: 30px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 22px;
+            text-align: center;
+            margin: 20px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    #presentation_stage{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 70px 0 0;
+        
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+
+        h2{
+            font-size: 30px; 
+        }
+
+        #outils{
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 1350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px 0 0;
+
+            h2{
+                margin: 5px 0 40px;
+            }
+        }
+
+        #flex_outils_1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1150px;
+
+            #img_wordpress{
+                width: 370px;
+            }
+
+            #img_vsCode{
+                width: 600px;
+            }
+        }
+
+        #flex_outils_2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 700px;
+            margin: 40px 0 50px;
+
+            #img_wamp{
+                width: 200px;
+            }
+
+            #img_filezilla{
+                width: 200px;
+            }
+        }
+
+
+
+        #normes{
+            width: 100%;
+            margin: 80px 0 0;
+
+            h2{
+                text-align: center;
+            }
+
+            #flex_normes{
+                margin: 0 auto;
+                width: 500px;
+
+                div{
+                    width: 500px;
+                    text-align: center;
+
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        #langages{
+            margin: 90px 0 30px;
+            text-align: center;
+
+            #langages_html{
+                width: 300px;
+                margin: 0 0 0 150px;
+            }
+
+            #langages_php{
+                width: 450px;
+                padding: 0 0 0 200px;
+            }
+        }
+
+        #organisation{
+            text-align: center;
+            margin: 90px auto 50px;
+
+            h2{
+                margin: 0;
+            }
+
+            #kanban{
+                width: 1200px;
+            }
+
+            #tableau{
+                width: 1185px;
+                margin: 20px 0 0;
+            }
+        }
+
+        #competences{
+            margin: 30px 0 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                margin: 30px 0 20px;
+            }
+
+            #flex_competences{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 900px;
+
+                div{
+                    width: 425px;
+                }
+
+                p{
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
+
+        #rapports{
+            margin: 100px auto 0;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+#stage_intro_umb{
+    width: 100%;
+    margin-top: 150px;
+
+    div{
+        width: 960px;
+        font-size: 22px;
+        text-align: center;
+        margin: 0 auto;
+
+        a{
+            color: #000;
+            text-decoration: none;
+            outline: none;
+
+            &:hover{
+                h1{
+                    color: rgba(97, 192, 255, 1);
+                }
+            }
+        }
+
+        h1{
+            font-size: 35px;
+            margin: 80px 0 10px;
+            text-decoration: underline;
+        }
+
+        img{
+            width: 960px;
+        }
+
+        p{
+            margin: 0;
+        }
+
+        .stage_explications{
+            margin: 0;
+            font-size: 20px;
+            color: rgb(116, 116, 116);
+            font-style: italic;
+        }
+    }
+}
+
+#contenu_umb{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 80px;
+
+    #presentation_umb{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+    
+        ul{
+            padding: 0 0 0 90px;
+            margin: 10px 0 50px;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    
+        img{
+            width: 1000px;
+        }
+    }
+    
+    #besoins_umb{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 70px 0 0;
+
+        h2{
+            font-size: 30px;
+            margin: 0;
+        }
+
+        p{
+            font-size: 22px;
+            text-align: center;
+            margin: 20px 0 0;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+    }
+
+    #presentation_stage_umb{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 70px 0 0;
+        
+        h1{
+            font-size: 35px;
+            text-decoration: underline;
+        }
+
+        ul{
+            margin: 10px 0 0;
+            font-size: 22px;
+    
+            li{
+                margin: 10px 0;
+            }
+        }
+
+        h2{
+            font-size: 30px; 
+        }
+
+        #outils{
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 1350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 70px 0 0;
+
+            h2{
+                margin: 5px 0 40px;
+            }
+        }
+
+        #flex_outils{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1100px;
+
+            #img_figma{
+                width: 450px;
+            }
+
+            #img_vsCode{
+                width: 500px;
+            }
+        }
+
+        #img_git{
+            width: 1100px;
+        }
+
+        #normes{
+            width: 100%;
+            margin: 80px 0 0;
+
+            h2{
+                text-align: center;
+            }
+
+            #flex_normes{
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 1100px;
+                margin: 0 auto;
+
+                h3{
+                    font-size: 26px;
+                    margin: 10px 0 0;
+                }
+
+                div{
+                    width: 500px;
+                    text-align: center;
+
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        #langages{
+            margin: 90px 0 30px;
+            text-align: center;
+
+            img{
+                width: 700px;
+            }
+        }
+
+        #competences{
+            margin: 60px 0 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2{
+                margin: 30px 0 20px;
+            }
+
+            #flex_competences{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 900px;
+
+                div{
+                    width: 425px;
+                }
+
+                p{
+                    margin: 0 0 20px 0;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+                
+                ul{
+                    list-style: none;
+                    text-align: center;
+                    padding: 0;
+                }
+            }
+        }
+
+        #rapports{
+            margin: 100px auto 80px;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+}
